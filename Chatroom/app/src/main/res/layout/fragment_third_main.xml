@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainThirdFragment"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal|top"
+        android:baselineAlignBottom="false"
+        android:contextClickable="false" />
+    <TextView
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Username"
+        android:id="@+id/mainUser"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="28dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainUserInput"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Email"
+        android:id="@+id/mainEmail"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="28dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainEmailInput"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:password="true" />
+
+    <Button
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:text="Change password"
+        android:id="@+id/passButton"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log out"
+        android:id="@+id/outButton"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

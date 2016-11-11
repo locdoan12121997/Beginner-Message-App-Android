@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "459661243719",
+    "firebase_url": "https://chatroom-959d2.firebaseio.com",
+    "project_id": "chatroom-959d2",
+    "storage_bucket": "chatroom-959d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459661243719:android:cd41ed98f91107a1",
+        "android_client_info": {
+          "package_name": "vinh.chatroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459661243719-88a4fcvmb21eqsrmbt68p264gtusv4as.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbsWOyp4iSOLiglp3z7ugbiDOThLNFKpc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
